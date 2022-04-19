@@ -7,12 +7,10 @@ namespace Laba_2
 {
     public class BitmapWrapper
     {
+        //KirosinZ <3
         byte[] bmp;
         System.Drawing.Imaging.BitmapData bmpData;
-        public BitmapWrapper()
-        {
-
-        }
+        public BitmapWrapper() {    }
         public BitmapWrapper(Bitmap img)
         {
             Rectangle frame = new Rectangle(0, 0, img.Width, img.Height);
